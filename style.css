@@ -54,7 +54,7 @@
 }
 
 #password-input{
-        width: 91%;
+        width: 95%;
 }
 
 
@@ -177,4 +177,322 @@
         border: solid gray 1px;
         background: rgb(4,85,19);
         background: linear-gradient(0deg, rgba(4,85,19,1) 52%, rgba(44,238,73,1) 100%);
+}
+
+
+@media  (max-width: 576px) {
+
+.fb-navabar{
+        height: 18vh;
+}
+
+        .fbTextLogo{
+        width: 20%;
+        margin-left: 9%;
+}
+
+.email-password-parent-div{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 1vh;
+}
+
+#logbutton{
+        margin-top: -72px;
+        width: 60px;
+        margin-left: 115px;
+}
+
+.people-background{
+        display: none;
+}
+
+.people-background{
+        display: none;
+}
+
+
+.regstration-div{
+        width: 100%;
+        height: auto;
+}
+
+.form-parent{
+        margin-top: 45px;
+}
+
+.first-heading{
+        font-size: 30px;
+        margin-left: 30px;
+}
+
+.second-headding {
+        font-size: 12px;
+        margin-left: 10%;
+}
+
+#full-name {
+        width: 45%;
+        height: 5vh;
+        margin-left: -15px;
+}
+
+#surname{
+        width: 45%;
+        height: 5vh;
+}
+
+#mobileoremail{
+        width: 93%;
+        height: 5vh;
+        margin-left: -15px;
+}
+
+#newpassword{
+        width: 93%;
+        height: 5vh;
+        margin-left: -15px;  
+}
+
+.birthday-label{
+        font-size: 13px;
+}
+
+#birthday-date{
+        width: 20%;
+        margin-left: -11px;
+}
+
+#birth-month{
+        width: 20%; 
+}
+
+#birth-year{
+        width: 20%;
+}
+
+.finel-p{
+        width: 130%;
+}
+
+#signup-button{
+        width: 55%;
+        margin-left: 23%;
+}
+
+}
+
+
+
+
+
+@media  (max-width: 768px) and (min-width:576px) {
+
+.fb-navabar{
+        height: 18vh;
+}
+        
+.fbTextLogo{
+        width: 30%;
+        margin-left: 9%;
+}
+        
+.email-password-parent-div{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 3vh;
+}
+        
+#logbutton{
+        margin-top: -72px;
+        width: 60px;
+        margin-left: 115px;
+}
+        
+.people-background{
+        display: none;
+}
+        
+.people-background{
+        display: none;
+}
+        
+        
+.regstration-div{
+        width: 100%;
+        height: auto;
+}
+        
+.form-parent{
+        margin-top: 79px;
+}
+        
+.first-heading{
+        font-size: 45px;
+        margin-left: 79px;
+}
+        
+.second-headding {
+        font-size: 15px;
+        margin-left: 12%;
+}
+        
+#full-name {
+        width: 45%;
+        height: 5vh;
+        margin-left: -15px;
+}
+        
+#surname{
+        width: 45%;
+        height: 5vh;
+}
+        
+#mobileoremail{
+        width: 93%;
+        height: 5vh;
+        margin-left: -15px;
+}
+
+#newpassword{
+        width: 93%;
+        height: 5vh;
+        margin-left: -15px;  
+}
+
+.birthday-label{
+        font-size: 13px;
+}
+
+#birthday-date{
+        width: 20%;
+        margin-left: -11px;
+}
+
+#birth-month{
+        width: 20%; 
+}
+
+#birth-year{
+        width: 20%;
+}
+
+.finel-p{
+        width: 130%;
+}
+
+#signup-button{
+        width: 55%;
+        margin-left: 23%;
+}
+
+}
+
+
+
+@media  (max-width: 1024px) and (min-width:768px) {
+
+.fb-navabar{
+        height: 18vh;
+}
+        
+.fbTextLogo{
+        width: 30%;
+        margin-left: 9%;
+}
+        
+.email-password-parent-div{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 3vh;
+}
+        
+#logbutton{
+        margin-top: -72px;
+        width: 60px;
+        margin-left: 115px;
+}
+        
+.people-background{
+        display: none;
+}
+        
+.people-background{
+        display: none;
+}
+        
+        
+.regstration-div{
+        width: 100%;
+        height: auto;
+}
+        
+.form-parent{
+        margin-top: 79px;
+}
+        
+.first-heading{
+        font-size: 45px;
+        margin-left: 94px;
+        margin-top: 75px;
+
+}
+        
+.second-headding {
+        font-size: 15px;
+        margin-left: 12%;
+}
+        
+#full-name {
+        width: 45%;
+        height: 5vh;
+        margin-left: -15px;
+}
+        
+#surname{
+        width: 45%;
+        height: 5vh;
+}
+        
+#mobileoremail{
+        width: 93%;
+        height: 5vh;
+        margin-left: -15px;
+}
+
+#newpassword{
+        width: 93%;
+        height: 5vh;
+        margin-left: -15px;  
+}
+
+.birthday-label{
+        font-size: 13px;
+}
+
+#birthday-date{
+        width: 20%;
+        margin-left: -11px;
+}
+
+#birth-month{
+        width: 20%; 
+}
+
+#birth-year{
+        width: 20%;
+}
+
+.finel-p{
+        width: 130%;
+}
+
+#signup-button{
+        width: 55%;
+        margin-left: 23%;
+}
+
 }
